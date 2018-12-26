@@ -1,3 +1,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 21cm;
+    margin: 2cm;
+}
+
+.left , .right{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
 }
