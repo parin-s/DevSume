@@ -1,11 +1,103 @@
 body {
-    font-family: 'Lato', sans-serif;
-    width: 21cm;
+    font-family: 'Open Sans', sans-serif;
+    width: 20cm;
     margin: 2cm;
 }
 
-.left , .right{
+.profile-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-header p{
+    margin-top: 0;
+}
+
+.name-container{
     display: inline-block;
     vertical-align: top;
-    width: 49%;
+    margin-left: 20px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.role{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.social-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.social-url{
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.exp-node, .ed-node{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.w10{
+    width: 10%;
+}
+.w20{
+    width: 20%;
+}
+.w25{
+    width: 25%;
+}
+.w30{
+    width: 30%;
+}
+.w50{
+    width: 50%;
+}
+.w70{
+    width: 70%;
+}
+.w75{
+    width: 75%;
+}
+.w80{
+    width: 80%;
+}
+.w90{
+    width: 90%;
+}
+.w100{
+    width: 100%;
+}
+
+p, ul{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 18px;
+}
+
+hr{
+    margin: 30px auto;
+    border-color: #ffffff;
 }
